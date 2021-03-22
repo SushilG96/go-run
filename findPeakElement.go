@@ -1,9 +1,11 @@
 package main
 
-import ("fmt")
+import (
+        "fmt"
+)
 
-func main(){
-    n := []int{1,2,1,3,5,6,4}
+func main() {
+    n := []int{1, 2, 1, 3, 5, 6, 4}
     fmt.Println(findPeakElement(n))
 }
 /*
